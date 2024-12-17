@@ -12,7 +12,6 @@
 6. [CUDA 环境配置](#cuda-环境配置)
 7. [配置 Eclipse](#配置-eclipse)
 8. [验证安装](#验证安装)
-9. [常见问题与解决](#常见问题与解决)
 
 ------
 
@@ -91,14 +90,7 @@ mpicc mpi_hello.c -o mpi_hello
 mpirun -np 4 ./mpi_hello
 ```
 
-您应该会看到类似如下的输出：
 
-```
-Hello from processor 0 out of 4
-Hello from processor 1 out of 4
-Hello from processor 2 out of 4
-Hello from processor 3 out of 4
-```
 
 ## OpenMP 环境配置
 
@@ -151,8 +143,6 @@ int main()
 gcc -fopenmp openmp_hello.c -o openmp_hello
 ./openmp_hello
 ```
-
-您将看到多个线程打印的消息，具体数量取决于您的 CPU 核心数或设置的线程数。
 
 ### 设置线程数
 
@@ -343,4 +333,3 @@ int main()
 nvcc cuda_hello.cu -o cuda_hello
 ./cuda_hello
 ```
-
