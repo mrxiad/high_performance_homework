@@ -17,7 +17,7 @@ gcc -O3 -Wall pthread_hello.c -o ./bin/pthread_hello -lpthread
 
 # 编译 CUDA 程序
 echo "Compiling CUDA program..."
-nvcc -O3 cuda_hello.cu -o ./bin/cuda_hello
+nvcc -O3 cuda_hello.cu -o ./bin/cuda_hello -arch=sm_86
 
 echo "Build complete. All executables are in the bin/ directory."
 
