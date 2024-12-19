@@ -1,4 +1,4 @@
-# Linux 系统并行计算环境配置教程
+# Linux(WSL) 系统并行计算环境配置教程
 
 本教程旨在指导您在 Linux(WSL) 系统上配置并行计算环境，包括 MPI、OpenMP、pthreads 和 CUDA。完成配置后，您将能够在 Eclipse 或其他编辑器（如 VSCode、gedit）中编写和运行并行程序。
 
